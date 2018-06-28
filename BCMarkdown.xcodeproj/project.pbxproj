@@ -12,39 +12,39 @@
 		0A0B267620E5127600FB9EF8 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265220E5127600FB9EF8 /* buffer.c */; };
 		0A0B267720E5127600FB9EF8 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265320E5127600FB9EF8 /* blocks.c */; };
 		0A0B267820E5127600FB9EF8 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265420E5127600FB9EF8 /* cmark_ctype.c */; };
-		0A0B267920E5127600FB9EF8 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265520E5127600FB9EF8 /* cmark_export.h */; };
+		0A0B267920E5127600FB9EF8 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265520E5127600FB9EF8 /* cmark_export.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B267A20E5127600FB9EF8 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265620E5127600FB9EF8 /* inlines.c */; };
 		0A0B267B20E5127600FB9EF8 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265720E5127600FB9EF8 /* latex.c */; };
 		0A0B267C20E5127600FB9EF8 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265820E5127600FB9EF8 /* houdini_href_e.c */; };
-		0A0B267D20E5127600FB9EF8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265920E5127600FB9EF8 /* config.h */; };
-		0A0B267E20E5127600FB9EF8 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265A20E5127600FB9EF8 /* chunk.h */; };
+		0A0B267D20E5127600FB9EF8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265920E5127600FB9EF8 /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0B267E20E5127600FB9EF8 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265A20E5127600FB9EF8 /* chunk.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B267F20E5127600FB9EF8 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265B20E5127600FB9EF8 /* case_fold_switch.inc */; };
 		0A0B268020E5127600FB9EF8 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265C20E5127600FB9EF8 /* entities.inc */; };
-		0A0B268120E5127600FB9EF8 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265D20E5127600FB9EF8 /* parser.h */; };
+		0A0B268120E5127600FB9EF8 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265D20E5127600FB9EF8 /* parser.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B268220E5127600FB9EF8 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265E20E5127600FB9EF8 /* houdini_html_e.c */; };
-		0A0B268320E5127600FB9EF8 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265F20E5127600FB9EF8 /* scanners.h */; };
-		0A0B268420E5127600FB9EF8 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266020E5127600FB9EF8 /* node.h */; };
+		0A0B268320E5127600FB9EF8 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265F20E5127600FB9EF8 /* scanners.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0B268420E5127600FB9EF8 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266020E5127600FB9EF8 /* node.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B268520E5127600FB9EF8 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266120E5127600FB9EF8 /* utf8.c */; };
 		0A0B268620E5127600FB9EF8 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266220E5127600FB9EF8 /* references.c */; };
 		0A0B268720E5127600FB9EF8 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266320E5127600FB9EF8 /* render.c */; };
 		0A0B268820E5127600FB9EF8 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266420E5127600FB9EF8 /* iterator.c */; };
-		0A0B268920E5127600FB9EF8 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266520E5127600FB9EF8 /* cmark_version.h */; };
-		0A0B268A20E5127600FB9EF8 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266620E5127600FB9EF8 /* cmark_ctype.h */; };
-		0A0B268B20E5127600FB9EF8 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266720E5127600FB9EF8 /* buffer.h */; };
-		0A0B268C20E5127600FB9EF8 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266820E5127600FB9EF8 /* cmark.h */; };
+		0A0B268920E5127600FB9EF8 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266520E5127600FB9EF8 /* cmark_version.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0B268A20E5127600FB9EF8 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266620E5127600FB9EF8 /* cmark_ctype.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0B268B20E5127600FB9EF8 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266720E5127600FB9EF8 /* buffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0B268C20E5127600FB9EF8 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266820E5127600FB9EF8 /* cmark.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B268D20E5127600FB9EF8 /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266920E5127600FB9EF8 /* commonmark.c */; };
 		0A0B268E20E5127600FB9EF8 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266A20E5127600FB9EF8 /* html.c */; };
-		0A0B268F20E5127600FB9EF8 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266B20E5127600FB9EF8 /* inlines.h */; };
+		0A0B268F20E5127600FB9EF8 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266B20E5127600FB9EF8 /* inlines.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B269020E5127600FB9EF8 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266C20E5127600FB9EF8 /* scanners.c */; };
-		0A0B269120E5127600FB9EF8 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266D20E5127600FB9EF8 /* houdini.h */; };
-		0A0B269220E5127600FB9EF8 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266E20E5127600FB9EF8 /* iterator.h */; };
+		0A0B269120E5127600FB9EF8 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266D20E5127600FB9EF8 /* houdini.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0B269220E5127600FB9EF8 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B266E20E5127600FB9EF8 /* iterator.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B269320E5127600FB9EF8 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B266F20E5127600FB9EF8 /* houdini_html_u.c */; };
-		0A0B269420E5127600FB9EF8 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B267020E5127600FB9EF8 /* utf8.h */; };
+		0A0B269420E5127600FB9EF8 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B267020E5127600FB9EF8 /* utf8.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B269520E5127600FB9EF8 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B267120E5127600FB9EF8 /* node.c */; };
-		0A0B269620E5127600FB9EF8 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B267220E5127600FB9EF8 /* references.h */; };
-		0A0B269720E5127600FB9EF8 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B267320E5127600FB9EF8 /* render.h */; };
+		0A0B269620E5127600FB9EF8 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B267220E5127600FB9EF8 /* references.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A0B269720E5127600FB9EF8 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B267320E5127600FB9EF8 /* render.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0A1E6C9020E525CF002441D0 /* AttributedStringRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9B79A202AAAE700C8A580 /* AttributedStringRenderer.swift */; };
 		3CF9B757202AA91A00C8A580 /* BCMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF9B755202AA91A00C8A580 /* BCMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CF9B7A0202AAAE700C8A580 /* AttributedStringRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9B79A202AAAE700C8A580 /* AttributedStringRenderer.swift */; };
 		3CF9B7A1202AAAE700C8A580 /* AttributesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9B79B202AAAE700C8A580 /* AttributesConfigurator.swift */; };
 		3CF9B7A2202AAAE700C8A580 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9B79C202AAAE700C8A580 /* Document.swift */; };
 		3CF9B7A3202AAAE700C8A580 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9B79D202AAAE700C8A580 /* Elements.swift */; };
@@ -390,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF9B7A0202AAAE700C8A580 /* AttributedStringRenderer.swift in Sources */,
 				0A0B268820E5127600FB9EF8 /* iterator.c in Sources */,
 				3CF9B7A4202AAAE700C8A580 /* Node.swift in Sources */,
 				3CF9B7A1202AAAE700C8A580 /* AttributesConfigurator.swift in Sources */,
@@ -400,6 +399,7 @@
 				0A0B267420E5127600FB9EF8 /* xml.c in Sources */,
 				0A0B268620E5127600FB9EF8 /* references.c in Sources */,
 				0A0B267620E5127600FB9EF8 /* buffer.c in Sources */,
+				0A1E6C9020E525CF002441D0 /* AttributedStringRenderer.swift in Sources */,
 				0A0B268520E5127600FB9EF8 /* utf8.c in Sources */,
 				0A0B267820E5127600FB9EF8 /* cmark_ctype.c in Sources */,
 				0A0B267F20E5127600FB9EF8 /* case_fold_switch.inc in Sources */,

@@ -12,10 +12,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target     = "9.0"
   s.swift_version = '4.0'
 
-  s.source_files = 'BCMarkdown/Sources/**/*.swift'
-  s.subspec 'cmark' do |cmark|
-    cmark.vendored_libraries = 'BCMarkdown/cmark/libBCCmark.a'
-    cmark.source_files = 'BCMarkdown/cmark/include/*.h'
-  end
-  # s.preserve_paths = 'BCMarkdown/cmark/include/*.h', 'BCMarkdown/BCMarkdown.h'
+  s.source_files = 'BCMarkdown/Sources/**/*.swift', 'cmark/*.c', 'cmark/*.inc'
+  s.private_header_files = 'cmark/*.h'
+  s.preserve_paths = 'BCMarkdown/module.modulemap', 'cmark/*.h'
+  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/BCMarkdown/BCMarkdown/' }
 end

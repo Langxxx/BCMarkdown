@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import cmark
 
 enum Inline {
     case text(text: String)

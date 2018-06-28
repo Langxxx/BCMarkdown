@@ -7,11 +7,12 @@
 //
 
 import Foundation
+import cmark
 
 public class Node {
-    let node: UnsafeMutablePointer<cmark_node>
+    let node: OpaquePointer
     private let _freeWhenDone: Bool
-    init(node: UnsafeMutablePointer<cmark_node>, freeWhenDone: Bool = true) {
+    init(node: OpaquePointer, freeWhenDone: Bool = true) {
         self.node = node
         _freeWhenDone = freeWhenDone
     }

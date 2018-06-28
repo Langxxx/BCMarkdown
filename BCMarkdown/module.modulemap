@@ -1,0 +1,5 @@
+module cmark [system] {
+    //由于module.modulemap和OCSource.h是在同一个文件夹的，如果不是同一个，路径要写全
+    header "../cmark/cmark.h"
+    export *
+}

@@ -18,8 +18,6 @@
 		0A0B267C20E5127600FB9EF8 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265820E5127600FB9EF8 /* houdini_href_e.c */; };
 		0A0B267D20E5127600FB9EF8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265920E5127600FB9EF8 /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B267E20E5127600FB9EF8 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265A20E5127600FB9EF8 /* chunk.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		0A0B267F20E5127600FB9EF8 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265B20E5127600FB9EF8 /* case_fold_switch.inc */; };
-		0A0B268020E5127600FB9EF8 /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265C20E5127600FB9EF8 /* entities.inc */; };
 		0A0B268120E5127600FB9EF8 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265D20E5127600FB9EF8 /* parser.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0A0B268220E5127600FB9EF8 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B265E20E5127600FB9EF8 /* houdini_html_e.c */; };
 		0A0B268320E5127600FB9EF8 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0B265F20E5127600FB9EF8 /* scanners.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -402,10 +400,8 @@
 				0A1E6C9020E525CF002441D0 /* AttributedStringRenderer.swift in Sources */,
 				0A0B268520E5127600FB9EF8 /* utf8.c in Sources */,
 				0A0B267820E5127600FB9EF8 /* cmark_ctype.c in Sources */,
-				0A0B267F20E5127600FB9EF8 /* case_fold_switch.inc in Sources */,
 				0A0B269520E5127600FB9EF8 /* node.c in Sources */,
 				3CF9B7A3202AAAE700C8A580 /* Elements.swift in Sources */,
-				0A0B268020E5127600FB9EF8 /* entities.inc in Sources */,
 				0A0B267B20E5127600FB9EF8 /* latex.c in Sources */,
 				0A0B268720E5127600FB9EF8 /* render.c in Sources */,
 				0A0B269020E5127600FB9EF8 /* scanners.c in Sources */,

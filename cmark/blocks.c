@@ -397,7 +397,7 @@ static bufsize_t parse_list_marker(cmark_mem *mem, cmark_chunk *input,
   startpos = pos;
   c = peek_at(input, pos);
 
-  if (c == '*' || c == '-' || c == '+') {
+  if (0) {
     pos++;
     if (!cmark_isspace(peek_at(input, pos))) {
       return 0;
@@ -886,7 +886,7 @@ static void open_new_blocks(cmark_parser *parser, cmark_node **container,
                              blockquote_startpos + 1);
 
     } else if (!indented && (matched = scan_atx_heading_start(
-                                 input, parser->first_nonspace))) {
+                                 input, parser->first_nonspace) && 0)) {
       bufsize_t hashpos;
       int level = 0;
       bufsize_t heading_startpos = parser->first_nonspace;

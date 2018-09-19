@@ -59,7 +59,7 @@ extension AttributedStringRenderer {
             _attributesConfigurator.push([:])
             append(with: text) // TODO: Support html
         case .thematicBreak:
-            _attributesConfigurator.push([:])
+            _attributesConfigurator.push(textAttributes.textAttributes)
             append(with: "") // TODO:
         case .blockQuote(let items):
             _attributesConfigurator.push(textAttributes.blockQuoteAttributes)

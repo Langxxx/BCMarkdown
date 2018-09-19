@@ -18,7 +18,8 @@ public struct TextAttributes {
     public var h4Attributes: Attributes
     public var h5Attributes: Attributes
     public var h6Attributes: Attributes
-    
+
+    public var thematicBreakAttributes: Attributes
     public var strongAttributes: Attributes
     public var linkAttributes: Attributes
     public var codeBlockAttributes: Attributes
@@ -62,6 +63,7 @@ extension TextAttributes {
         linkAttributes = [NSAttributedStringKey.foregroundColor: UIColor.blue]
         var blockCode = codeDefault
         blockCode[NSAttributedStringKey.paragraphStyle] = paragraphDefault[NSAttributedStringKey.paragraphStyle]
+        thematicBreakAttributes = [:]
         codeBlockAttributes = blockCode
         inlineCodeAttributes = codeDefault
         blockQuoteAttributes = paragraphDefault
